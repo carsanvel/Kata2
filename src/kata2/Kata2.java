@@ -7,7 +7,7 @@ public class Kata2 {
 
     public static void main(String[] args) {
     
-        Integer[] data = {1, -10, 25, 898, 0, -456, 2, 11, 98, 345, 2, -24, -7890, 7, 99};
+        String[] data = {"Carlos", "Pepe", "María", "Carlos", "Javi", "Carlos", "Ana", "Haridian", "Pepe", "Mario", "Antonio", "Pedro", "Pepe Juan", "Carlos", "Ana", "Fefa"};
         Histogram histo = new Histogram(data);
         Map<Integer, Integer> histogr = histo.getHistogram();
         for (Map.Entry<Integer, Integer> entry : histogr.entrySet()) {
