@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class Histogram<T> {
 
+    
     private final T[] data;
 
     public Histogram(T[] data) {
